@@ -6,12 +6,31 @@ body {
 }
 
 .main-content {
-  height: 700px !important;
+  height: 750px !important;
   background: rgba(255, 255, 255, 0.104) !important;
   backdrop-filter: blur(10px);
+}
+
+.font-main-content {
   font-family: "Dancing Script", cursive;
 }
 
 .main-content span {
   color: #2567f9;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: white;
+}
+
+.add {
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.505);
+  transition: 0.3s ease-in-out;
+}
+
+.add:hover {
+  background-color: #2567f9;
+  color: white;
 }
