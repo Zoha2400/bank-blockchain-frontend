@@ -39,3 +39,17 @@ body {
 .number {
   font-family: "Orbitron", sans-serif;
 }
+
+.orbitalball {
+  animation: spin 4s linear infinite !important;
+  transform: translateX(-50%) !important;
+}
+
+@keyframes spin {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
