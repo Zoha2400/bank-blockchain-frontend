@@ -62,3 +62,7 @@ body {
   ) !important;
   color: white;
 }
+
+.name-profile {
+  font-family: "Dancing Script", cursive;
+}
