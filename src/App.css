@@ -54,5 +54,11 @@ body {
   }
 }
 
-.logo {
+.card-operations {
+  background: linear-gradient(
+    45deg,
+    rgb(224, 52, 52),
+    rgb(175, 24, 175)
+  ) !important;
+  color: white;
 }
